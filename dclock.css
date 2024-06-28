@@ -5,17 +5,19 @@
 body{
     height: 100vh;
     display: flex;
+    flex-direction: column;
+    gap: 20px;
     align-items: center;
     justify-content: center;
     font: bold 12px Arial, Helvetica, sans-serif;
-    background-color: black;
+    background-color: #070F2B;
 }
 .clock{
-    border: 1px solid #606060;
-    color: white;
+    border: 1px solid #9290C3;
+    color: #8a95d1;
     padding: 40px;
     border-radius: 10px;
-    background-color: #222222;
+    background-color: #1B1A50;
 }
 #date{
     font-size: 20px !important;
@@ -26,4 +28,18 @@ body{
     display: flex;
     font-size: 90px;
     gap: 15px;
+}
+
+h1
+{
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #088395;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+
+h1:hover{
+    color: white;
 }
